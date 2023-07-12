@@ -1,0 +1,19 @@
+.rating {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e2e2e2;
+}
+
+.fill {
+  color: var(--primary);
+}
+
+.editable {
+  cursor: pointer;
+}

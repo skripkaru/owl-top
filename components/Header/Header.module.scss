@@ -1,0 +1,7 @@
+.header {
+  grid-area: header;
+
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
