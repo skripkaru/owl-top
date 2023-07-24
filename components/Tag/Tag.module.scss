@@ -1,21 +1,16 @@
 .tag {
   display: inline-block;
-  padding: 5px 10px;
+  padding: 0.25rem 0.625rem;
   line-height: 1;
-
   border-radius: 1.25rem;
-
-  &:not(:last-child) {
-    margin-right: 5px;
-  }
 }
 
 .sm {
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 .md {
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .ghost {

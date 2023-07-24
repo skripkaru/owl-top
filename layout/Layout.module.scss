@@ -1,7 +1,7 @@
 @import '../styles/mixins';
 
 .wrapper {
-  min-height: 100vh;
+  height: 100%;
   display: grid;
   grid-template-columns: minmax(320px, 1fr);
   grid-template-rows: auto 1fr auto;
@@ -23,4 +23,9 @@
 
 .content {
   grid-area: content;
+  padding: 1rem;
+
+  @include media(sm) {
+    padding: 0;
+  }
 }

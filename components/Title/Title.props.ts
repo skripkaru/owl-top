@@ -6,5 +6,5 @@ export interface TitleProps
     HTMLHeadingElement
   > {
   tag?: 'h1' | 'h2' | 'h3'
-  children: ReactNode
+  children?: ReactNode
 }

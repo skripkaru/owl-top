@@ -23,6 +23,7 @@ html {
   box-sizing: inherit;
 }
 
+#__next,
 html,
 body {
   height: 100%;
@@ -106,4 +107,34 @@ figcaption {
 ::selection {
   color: var(--white);
   background-color: var(--gray);
+}
+
+h1, h2, h3, p {
+  margin: 1em 0;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+h1 {
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.2;
 }
